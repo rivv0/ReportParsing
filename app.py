@@ -234,7 +234,7 @@ class LabResultExtractor:
             if any(skip in line.lower() for skip in [
                 'investigation', 'observed', 'value', 'unit', 'biological', 'reference', 'interval',
                 'page', 'collected', 'registered', 'reported', 'dr.', 'md', 'pathology',
-                'consultant', 'reg no', 'sample', 'processing', 'mrs.', 'age:', 'sex:', 'pid','remarks'
+                'consultant', 'reg no', 'sample', 'processing', 'mrs.', 'age:', 'sex:', 'pid','remarks','End of Report','MD','Pathology','Chief'
             ]):
                 continue
             
